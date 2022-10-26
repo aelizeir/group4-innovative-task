@@ -15,7 +15,8 @@ class TabAli extends StatelessWidget {
       children: [
         ...family.map((family) => FamilyList(
             members: family
-        )).toList()
+          )
+        ).toList()
       ],
     );
   }

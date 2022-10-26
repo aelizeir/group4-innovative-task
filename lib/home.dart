@@ -71,7 +71,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Farmer',
         birthday: 'March 20, 1960',
         age: '62',
-        image: 'assets/images/joe.jpg'
+        image: 'assets/images/calapiz-joe.jpg'
     ),
     Family(
         id: 2,
@@ -80,7 +80,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Housewife',
         birthday: 'March 18, 1961',
         age: '61',
-        image: 'assets/images/josephine.jpg '
+        image: 'assets/images/calapiz-josephine.jpg'
     ),
     Family(
         id: 3,
@@ -89,7 +89,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Admin',
         birthday: 'September 14, 1997',
         age: '24',
-        image: 'assets/images/mitch.jpg '
+        image: 'assets/images/calapiz-mitch.jpg'
     ),
     Family(
         id: 4,
@@ -98,7 +98,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'January 18, 1999',
         age: '51',
-        image: 'assets/images/nica.jpg '
+        image: 'assets/images/calapiz-nica.jpg'
     ),
     Family(
         id: 5,
@@ -107,7 +107,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'August 7, 2001',
         age: '21',
-        image: 'assets/images/joephine.jpg '
+        image: 'assets/images/calapiz-joephine.jpg '
     ),
     Family(
         id: 6,
@@ -116,7 +116,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'December 14, 2004',
         age: '19',
-        image: 'assets/images/ej.jpg '
+        image: 'assets/images/calapiz-ej.jpg'
     ),
     Family(
         id: 7,
@@ -125,10 +125,10 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'October 14, 2018',
         age: '5',
-        image: 'assets/images/zia.jpg '
+        image: 'assets/images/calapiz-zia.jpg'
     ),
   ];
-
+  
   // ignore: non_constant_identifier_names
   List family_andres = [
     Family(

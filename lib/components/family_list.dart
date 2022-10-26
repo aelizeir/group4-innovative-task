@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:innovative_task/animation/slide_left.dart';
 import 'package:innovative_task/models/family.dart';
@@ -16,7 +15,7 @@ class FamilyList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       child: ListTile(
-        contentPadding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
         leading: CircleAvatar(backgroundImage: NetworkImage(members.image.toString())),
         title: Text(members.name ?? 'No Name'),
         subtitle: Text(members.relationship ?? 'Not Related'),

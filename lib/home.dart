@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:innovative_task/models/family.dart';
 import 'package:innovative_task/pages/tabs/tab_ali.dart';
 import 'package:innovative_task/pages/tabs/tab_andres.dart';
@@ -19,8 +18,10 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
 
   late TabController tabController;
+  // ignore: prefer_typing_uninitialized_variables
   var size, height, width;
 
+  // ignore: non_constant_identifier_names
   List family_ali = [
     Family(
        id: 1,
@@ -60,6 +61,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
     ),
   ];
 
+  // ignore: non_constant_identifier_names
   List family_joephine = [
     Family(
         id: 1,
@@ -99,6 +101,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
     ),
   ];
 
+  // ignore: non_constant_identifier_names
   List family_andres = [
     Family(
         id: 1,
@@ -138,6 +141,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
     ),
   ];
 
+  // ignore: non_constant_identifier_names
   List family_venjun = [
     Family(
         id: 1,
@@ -159,6 +163,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
     ),
   ];
 
+  // ignore: non_constant_identifier_names
   List family_lloyd = [
     Family(
         id: 1,
@@ -178,33 +183,33 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         age: '0',
         image: ''
     ),
-    ];
-    List family_lourence = [
-      Family(
-          id: 1,
-          name: 'Joe Calapiz',
-          relationship: 'Father',
-          occupation: 'Teacher',
-          birthday: 'Unrecorded',
-          age: '0',
-          image: ''
-      ),
-      Family(
-          id: 2,
-          name: 'Joephine Calapiz',
-          relationship: 'Me',
-          occupation: 'Student',
-          birthday: 'Unrecorded',
-          age: '0',
-          image: ''
-      ),
-    ];
+  ];
+    // ignore: non_constant_identifier_names
+  List family_lourence = [
+    Family(
+        id: 1,
+        name: 'Joe Calapiz',
+        relationship: 'Father',
+        occupation: 'Teacher',
+        birthday: 'Unrecorded',
+        age: '0',
+        image: ''
+    ),
+    Family(
+        id: 2,
+        name: 'Joephine Calapiz',
+        relationship: 'Me',
+        occupation: 'Student',
+        birthday: 'Unrecorded',
+        age: '0',
+        image: ''
+    ),
+  ];
 
   @override
   void initState() {
     tabController = TabController(length: 6, vsync: this);
     super.initState();
-
   }
 
   @override
@@ -224,7 +229,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         ),
         bottom:  TabBar(
           controller:  tabController,
-          tabs: [
+          tabs: const [
             Tab(child: Text('Ali Gutierrez')),
             Tab(child: Text('Joephine Calapiz')),
             Tab(child: Text('Venjun Vallente')),
@@ -243,7 +248,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
           TabAndres(family: family_andres),
           TabLloyd(family: family_lloyd),
           TabLourence(family: family_lourence)
-      ]),
+        ]
+      ),
     );
   }
 }

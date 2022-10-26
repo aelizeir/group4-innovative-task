@@ -208,7 +208,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
     return Scaffold(
       appBar: AppBar(
         title: const ListTile(
-          leading: CircleAvatar(backgroundImage: AssetImage('assets/images/p2.jpg')),
+          leading: CircleAvatar(backgroundImage: AssetImage('assets/images/group4.jpg')),
           title: Text('Innovative Task #', style: TextStyle(color: Colors.white)),
           subtitle: Text('Group 4', style: TextStyle(color: Colors.white, fontSize: 14.0)),
 

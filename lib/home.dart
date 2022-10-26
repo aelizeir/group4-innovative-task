@@ -167,21 +167,48 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   List family_lloyd = [
     Family(
         id: 1,
-        name: 'Joe Calapiz',
+        name: 'Primo Salas',
         relationship: 'Father',
-        occupation: 'Teacher',
-        birthday: 'Unrecorded',
-        age: '0',
-        image: ''
+        occupation: 'Service Driver',
+        birthday: 'September 18, 1969',
+        age: '53',
+        image: 'assets/images/Salas-Dad.jpg'
     ),
     Family(
         id: 2,
-        name: 'Joephine Calapiz',
+        name: 'Elsa Tejada',
+        relationship: 'Mother',
+        occupation: 'OFW',
+        birthday: 'Aug 7, 1977',
+        age: '45',
+        image: 'assets/images/Salas-Mom.jpg'
+    ),
+    Family(
+        id: 3,
+        name: 'Jean Laica Salas',
+        relationship: 'Sister',
+        occupation: 'Student',
+        birthday: 'Dec 10, 1997',
+        age: '24',
+        image: 'assets/images/Salas-Sis 1.jpg'
+    ),
+    Family(
+        id: 4,
+        name: 'Lloyd Anthony Salas',
         relationship: 'Me',
         occupation: 'Student',
-        birthday: 'Unrecorded',
-        age: '0',
-        image: ''
+        birthday: 'June 13, 2001',
+        age: '21',
+        image: 'assets/images/Salas-Me.jpg'
+    ),
+    Family(
+        id: 5,
+        name: 'Michaela Salas',
+        relationship: 'Sister',
+        occupation: 'Student',
+        birthday: 'June 14, 2006',
+        age: '16',
+        image: 'assets/images/Salas-Sis 2.jpg'
     ),
   ];
     // ignore: non_constant_identifier_names

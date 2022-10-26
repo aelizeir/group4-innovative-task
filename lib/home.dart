@@ -70,17 +70,26 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         age: '0',
         image: 'https://exploringbits.com/wp-content/uploads/2022/01/cute-pfp-4.jpg?ezimgfmt=rs:670x673/rscb3/ng:webp/ngcb3'
     ),
-    Family(
+         Family(
         id: 2,
-        name: 'Joephine Calapiz',
-        relationship: 'Me',
+        name: 'Josephine Calapiz',
+        relationship: 'Mother',
+        occupation: 'Housewife',
+        birthday: 'March 18, 1970',
+        age: '51',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqnDZ9uyA-QZS3fi_KNz6In6-N15vZjUgC9trGEFKumJOSHaQL8oERzvBcRi0KxokcHM&usqp=CAU'
+    ),
+    Family(
+        id: 3,
+        name: 'Mitch Calapiz',
+        relationship: 'Sister',
         occupation: 'Student',
-        birthday: 'Unrecorded',
-        age: '0',
+        birthday: 'September 14, 1997',
+        age: '24',
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqnDZ9uyA-QZS3fi_KNz6In6-N15vZjUgC9trGEFKumJOSHaQL8oERzvBcRi0KxokcHM&usqp=CAU'
     ),
      Family(
-        id: 3,
+        id: 4,
         name: 'Josephine Calapiz',
         relationship: 'Mother',
         occupation: 'Housewife',
@@ -209,7 +218,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
       appBar: AppBar(
         title: const ListTile(
           leading: CircleAvatar(backgroundImage: AssetImage('assets/images/group4.jpg')),
-          title: Text('Innovative Task #', style: TextStyle(color: Colors.white)),
+          title: Text('Innovative Task #', style: TextStyle(color: Colors.white,fontSize: 23.0 )),
           subtitle: Text('Group 4', style: TextStyle(color: Colors.white, fontSize: 14.0)),
 
         ),

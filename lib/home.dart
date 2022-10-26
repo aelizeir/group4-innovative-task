@@ -79,6 +79,15 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         age: '0',
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqnDZ9uyA-QZS3fi_KNz6In6-N15vZjUgC9trGEFKumJOSHaQL8oERzvBcRi0KxokcHM&usqp=CAU'
     ),
+     Family(
+        id: 3,
+        name: 'Josephine Calapiz',
+        relationship: 'Mother',
+        occupation: 'Housewife',
+        birthday: 'March 18, 1970',
+        age: '51',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqnDZ9uyA-QZS3fi_KNz6In6-N15vZjUgC9trGEFKumJOSHaQL8oERzvBcRi0KxokcHM&usqp=CAU'
+    ),
   ];
 
   List family_andres = [

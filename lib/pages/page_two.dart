@@ -19,9 +19,9 @@ class PageTwo extends StatelessWidget {
             padding: const EdgeInsets.only(top:10),
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
-                mainAxisSize: MainAxisSize.max,
+                mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
-                  const Align(
+                  Align(
                     alignment: Alignment.topCenter,
                   ),
                   Container(

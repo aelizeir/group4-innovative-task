@@ -63,41 +63,69 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
 
   // ignore: non_constant_identifier_names
   List family_joephine = [
+
     Family(
         id: 1,
         name: 'Joe Calapiz',
         relationship: 'Father',
-        occupation: 'Teacher',
-        birthday: 'Unrecorded',
-        age: '0',
-        image: 'https://exploringbits.com/wp-content/uploads/2022/01/cute-pfp-4.jpg?ezimgfmt=rs:670x673/rscb3/ng:webp/ngcb3'
+        occupation: 'Farmer',
+        birthday: 'March 20, 1960',
+        age: '62',
+        image: 'assets/images/joe.jpg'
     ),
-         Family(
+    Family(
         id: 2,
         name: 'Josephine Calapiz',
         relationship: 'Mother',
         occupation: 'Housewife',
-        birthday: 'March 18, 1970',
-        age: '51',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqnDZ9uyA-QZS3fi_KNz6In6-N15vZjUgC9trGEFKumJOSHaQL8oERzvBcRi0KxokcHM&usqp=CAU'
+        birthday: 'March 18, 1961',
+        age: '61',
+        image: 'assets/images/josephine.jpg '
     ),
     Family(
         id: 3,
         name: 'Mitch Calapiz',
         relationship: 'Sister',
-        occupation: 'Student',
+        occupation: 'Admin',
         birthday: 'September 14, 1997',
         age: '24',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqnDZ9uyA-QZS3fi_KNz6In6-N15vZjUgC9trGEFKumJOSHaQL8oERzvBcRi0KxokcHM&usqp=CAU'
+        image: 'assets/images/mitch.jpg '
     ),
-     Family(
+    Family(
         id: 4,
-        name: 'Josephine Calapiz',
-        relationship: 'Mother',
-        occupation: 'Housewife',
-        birthday: 'March 18, 1970',
+        name: 'Nicole Calapiz',
+        relationship: 'Sister',
+        occupation: 'Student',
+        birthday: 'January 18, 1999',
         age: '51',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqnDZ9uyA-QZS3fi_KNz6In6-N15vZjUgC9trGEFKumJOSHaQL8oERzvBcRi0KxokcHM&usqp=CAU'
+        image: 'assets/images/nica.jpg '
+    ),
+    Family(
+        id: 5,
+        name: 'Joephine Calapiz',
+        relationship: 'Me',
+        occupation: 'Student',
+        birthday: 'August 7, 2001',
+        age: '21',
+        image: 'assets/images/joephine.jpg '
+    ),
+    Family(
+        id: 6,
+        name: 'Ej Calapiz',
+        relationship: 'Brother',
+        occupation: 'Student',
+        birthday: 'December 14, 2004',
+        age: '19',
+        image: 'assets/images/ej.jpg '
+    ),
+    Family(
+        id: 7,
+        name: 'Zia Calapiz',
+        relationship: 'Sister',
+        occupation: 'Student',
+        birthday: 'October 14, 2018',
+        age: '5',
+        image: 'assets/images/zia.jpg '
     ),
   ];
 

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:innovative_task/models/family.dart';
 
 
@@ -16,13 +15,13 @@ class PageTwo extends StatelessWidget {
         appBar: AppBar(
           title: Text(information.name ?? 'No Name'),
         ),
-        body: new Padding(
-            padding: EdgeInsets.only(top:10),
+        body: Padding(
+            padding: const EdgeInsets.only(top:10),
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 mainAxisSize: MainAxisSize.max,
                 children: <Widget>[
-                  Align(
+                  const Align(
                     alignment: Alignment.topCenter,
                   ),
                   Container(
@@ -33,7 +32,7 @@ class PageTwo extends StatelessWidget {
                           color: Colors.grey.withOpacity(0.5),
                           spreadRadius: 10,
                           blurRadius: 5,
-                          offset: Offset(0, 3),
+                          offset: const Offset(0, 3),
                         ),
                       ],
                     ),
@@ -42,27 +41,29 @@ class PageTwo extends StatelessWidget {
                         radius: 120,
                         backgroundImage: NetworkImage(information.image.toString())),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   Text(
                     information.name ?? 'No name',
-                    style: TextStyle(fontSize: 20),
+                    style: const TextStyle(fontSize: 20),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 18,
                   ),
                   Text(
                     information.relationship ?? 'Not Related',
-                    style: TextStyle(fontSize: 20),
+                    style: const TextStyle(fontSize: 20),
                   ),
                   Text(information.occupation ?? '',
-                      style: TextStyle(fontSize:20)),
+                      style: const TextStyle(fontSize:20)),
                   Text(information.birthday ?? '',
-                      style: TextStyle(fontSize: 20)),
+                      style: const TextStyle(fontSize: 20)),
                   Text(information.age ?? '',
-                      style: TextStyle(fontSize: 20))
-                ])
-        ));
+                      style: const TextStyle(fontSize: 20))
+                ]
+            )
+        )
+    );
   }
 }

@@ -15,5 +15,6 @@ class Family {
     required this.birthday,
     required this.age,
     required this.image
-  });
+    }
+  );
 }

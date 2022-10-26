@@ -16,11 +16,15 @@ class PageTwo extends StatelessWidget {
         appBar: AppBar(
           title: Text(information.name ?? 'No Name'),
         ),
-        body: Padding(
-            padding: EdgeInsets.all(10),
+        body: new Padding(
+            padding: EdgeInsets.only(top:10),
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: [
+                mainAxisSize: MainAxisSize.max,
+                children: <Widget>[
+                  Align(
+                    alignment: Alignment.topCenter,
+                  ),
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(140),

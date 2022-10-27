@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:innovativetask/models/family.dart';
+import 'package:innovative_task/models/family.dart';
 
 
 class PageTwo extends StatelessWidget {
@@ -18,7 +17,6 @@ class PageTwo extends StatelessWidget {
           backgroundColor: const Color(0xFFFF9800),
           title: Text(information.name ?? ' '),
         ),
-
         body: ListView(
             padding: const EdgeInsets.only(left:2),
             shrinkWrap: true,
@@ -28,35 +26,29 @@ class PageTwo extends StatelessWidget {
                 padding: const EdgeInsets.all(32),
                 decoration: const BoxDecoration(
                   image: DecorationImage(
-                    image: NetworkImage('https://cdn.pixabay.com/photo/2022/10/15/21/23/cat-7523894_960_720.jpg'),
+                    image: AssetImage('assets/images/bg.jpg'),
                     fit: BoxFit.cover,
+                      colorFilter: ColorFilter.mode(Colors.black, BlendMode.dstATop)
                   ),
-
                 ),
-
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
-
                 children: [
                     Padding(
-                      padding: const EdgeInsets.all(15.0),
+                      padding: const EdgeInsets.all(65.0),
                       child: CircleAvatar(
                       radius: 120,
                       backgroundImage: AssetImage(information.image.toString()),
-
                       ),
                     ),
                 ]
               ),
 
-
               ListTile(
                 shape: RoundedRectangleBorder(
-                    side: const BorderSide(width: 2),
                     borderRadius: BorderRadius.circular(10),
-
                 ),
                 tileColor: const Color(0xFFFF9800),
                 textColor: Colors.black,
@@ -64,7 +56,6 @@ class PageTwo extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-
                     const Expanded(
                       flex: 4,
                     child: Text('Name'),
@@ -73,21 +64,16 @@ class PageTwo extends StatelessWidget {
                     flex: 9,
                     child: Text(': ${information.name}'),
                     ),
-
                   ],
                 ),
               ),
               const SizedBox(
                 height: 6,
-
               ),
               ListTile(
                 minVerticalPadding: 2,
-
                 shape: RoundedRectangleBorder(
-                  side: const BorderSide(width: 2),
                   borderRadius: BorderRadius.circular(10),
-
                 ),
                 tileColor: const Color(0xFFFF9800),
                 textColor: Colors.black,
@@ -95,7 +81,6 @@ class PageTwo extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-
                     const Expanded(
                       flex: 4,
                       child: Text('Relationship'),
@@ -104,7 +89,6 @@ class PageTwo extends StatelessWidget {
                       flex: 9,
                       child: Text(': ${information.relationship}'),
                     ),
-
                   ],
                 ),
               ),
@@ -113,11 +97,8 @@ class PageTwo extends StatelessWidget {
               ),
               ListTile(
                 minVerticalPadding: 2,
-
                 shape: RoundedRectangleBorder(
-                  side: const BorderSide(width: 2),
                   borderRadius: BorderRadius.circular(10),
-
                 ),
                 tileColor: const Color(0xFFFF9800),
                 textColor: Colors.black,
@@ -125,7 +106,6 @@ class PageTwo extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-
                     const Expanded(
                       flex: 4,
                       child: Text('Occupation'),
@@ -134,7 +114,6 @@ class PageTwo extends StatelessWidget {
                       flex: 9,
                       child: Text(': ${information.occupation}'),
                     ),
-
                   ],
                 ),
               ),
@@ -143,11 +122,8 @@ class PageTwo extends StatelessWidget {
               ),
               ListTile(
                 minVerticalPadding: 2,
-
                 shape: RoundedRectangleBorder(
-                  side: const BorderSide(width: 2),
                   borderRadius: BorderRadius.circular(10),
-
                 ),
                 tileColor: const Color(0xFFFF9800),
                 textColor: Colors.black,
@@ -155,7 +131,6 @@ class PageTwo extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-
                     const Expanded(
                       flex: 4,
                       child: Text('Birthday'),
@@ -164,7 +139,6 @@ class PageTwo extends StatelessWidget {
                       flex: 9,
                       child: Text(': ${information.birthday}'),
                     ),
-
                   ],
                 ),
               ),
@@ -173,11 +147,8 @@ class PageTwo extends StatelessWidget {
               ),
               ListTile(
                 minVerticalPadding: 2,
-
                 shape: RoundedRectangleBorder(
-                  side: const BorderSide(width: 2),
                   borderRadius: BorderRadius.circular(10),
-
                 ),
                 tileColor: const Color(0xFFFF9800),
                 textColor: Colors.black,
@@ -185,7 +156,6 @@ class PageTwo extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.start,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-
                     const Expanded(
                       flex: 4,
                       child: Text('Age'),
@@ -194,14 +164,11 @@ class PageTwo extends StatelessWidget {
                       flex: 9,
                       child: Text(': ${information.age}'),
                     ),
-
                   ],
                 ),
               ),
-
             ],
-    ),
+        ),
     );
-
   }
 }

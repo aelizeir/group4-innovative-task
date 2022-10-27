@@ -194,17 +194,17 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         name: 'Vernie Vallente',
         relationship: 'Father',
         occupation: 'Deceased',
-        birthday: 'November 24',
-        age: '0',
+        birthday: 'November 24 1974',
+        age: '48',
         image: ''
     ),
     Family(
         id: 2,
         name: 'Vilma Vallente',
         relationship: 'Mother',
-        occupation: 'Housewife',
-        birthday: 'Unrecorded',
-        age: '0',
+        occupation: 'Housekeeper',
+        birthday: 'January 18 1971',
+        age: '51',
         image: ''
     ),
     Family(

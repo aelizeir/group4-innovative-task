@@ -80,6 +80,12 @@ flutter:
      - assets/images/Salas-Sis 1.jpg
      - assets/images/Salas-Me.jpg
      - assets/images/Salas-Sis 2.jpg
+     - assets/images/tachado-andres.jpg
+     - assets/images/tachado-jr.jpg
+     - assets/images/tachado-welma.jpg
+     - assets/images/tachado-natividad.jpg
+     - assets/images/tachado-winnie.jpg
+     - assets/images/tachado-welman.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

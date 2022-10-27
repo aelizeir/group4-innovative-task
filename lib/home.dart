@@ -133,10 +133,10 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   List family_andres = [
     Family(
         id: 1,
-        name: 'Wilson Tachado',
-        relationship: 'Father',
-        occupation: 'Construction Worker',
-        birthday: 'August 17, 1970',
+        name: 'Welson Tachado',
+        relationship: 'Brother',
+        occupation: 'Driver',
+        birthday: 'August 17, 1994',
         age: '52',
         image: ''
     ),

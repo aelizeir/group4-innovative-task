@@ -30,7 +30,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
       occupation: 'Businessman',
       birthday: 'March 16, 1952',
       age: '70',
-      image: 'https://images.unsplash.com/photo-1628563694622-5a76957fd09c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5zdGFncmFtJTIwcHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80'
+      image: 'assets/images/ali-alex.JPG'
     ),
     Family(
         id: 2,
@@ -39,7 +39,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Teacher',
         birthday: 'May 23, 1965',
         age: '57',
-        image: 'https://pixlr.com/studio/template/6264364c-b8cc-4f4f-92d8-28c69a2b756w/thumbnail.webp'
+        image: 'assets/images/ali-annie.JPG'
     ),
     Family(
         id: 3,
@@ -48,7 +48,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Fullstack Developer',
         birthday: 'September 8, 1996',
         age: '26',
-        image: 'https://i.pinimg.com/736x/1f/34/da/1f34da676bcaa3b81a3ed27303fce78f.jpg'
+        image: 'assets/images/ali-xan.png'
     ),
     Family(
         id: 4,
@@ -57,7 +57,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Regular College Student / Kapwa Tao',
         birthday: 'August 29, 2001',
         age: '21',
-        image: 'https://i.seadn.io/gae/nB99Cnn0mXfp6EMiDflAL9DnV3ckcta0czwG_wF6whkzhE5D-SEz8-dZ475X2UfUTuR9pdgqPbJUTcAUQqhCGDwqk8OgQQbpYI0NwA?auto=format&w=1000'
+        image: 'assets/images/ali-me.png'
     ),
   ];
 

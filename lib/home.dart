@@ -330,7 +330,14 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
           ],
         ),
       ),
-      body: TabBarView(
+      body: Container(
+        decoration: const BoxDecoration(
+          image: DecorationImage(image: AssetImage('assets/images/bg1.jpg'),
+            fit: BoxFit.cover,
+            colorFilter: ColorFilter.mode(Colors.black, BlendMode.dstATop)
+          )
+        ),
+       child: TabBarView(
         controller: tabController,
         children: [
           TabAli(family: family_ali),
@@ -339,8 +346,10 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
           TabAndres(family: family_andres),
           TabLloyd(family: family_lloyd),
           TabLourence(family: family_lourence)
-        ]
+        ],
+
       ),
+    ),
     );
   }
 }

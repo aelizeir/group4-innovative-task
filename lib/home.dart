@@ -130,15 +130,15 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   ];
   
   // ignore: non_constant_identifier_names
-  List family_andres = [
+ List family_andres = [
     Family(
         id: 1,
         name: 'Welson Tachado',
         relationship: 'Brother',
         occupation: 'Driver',
         birthday: 'August 17, 1994',
-        age: '52',
-        image: ''
+        age: '28',
+        image: 'assets/images/tachado-jr.jpg'
     ),
     Family(
         id: 2,
@@ -147,7 +147,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'November 1, 2000',
         age: '21',
-        image: ''
+        image: 'assets/images/tachado-andres.jpg'
     ),
     Family(
         id: 3,
@@ -156,7 +156,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'House Wife',
         birthday: 'July 4, 1971',
         age: '51',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqnDZ9uyA-QZS3fi_KNz6In6-N15vZjUgC9trGEFKumJOSHaQL8oERzvBcRi0KxokcHM&usqp=CAU'
+        image: 'assets/images/tachado-natividad.jpg'
     ),
     Family(
         id: 3,
@@ -165,7 +165,25 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Fish Vendor',
         birthday: 'September 17, 1990',
         age: '32',
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYqnDZ9uyA-QZS3fi_KNz6In6-N15vZjUgC9trGEFKumJOSHaQL8oERzvBcRi0KxokcHM&usqp=CAU'
+        image: 'assets/images/tachado-welma.jpg'
+    ),
+    Family(
+        id: 4,
+        name: 'Winnie Christ Tachado',
+        relationship: 'Sister',
+        occupation: 'Abroad',
+        birthday: 'December 25, 1992',
+        age: '30',
+        image: 'assets/images/tachado-winnie.jpg'
+    ),
+    Family(
+        id: 5,
+        name: 'Welman Tachado',
+        relationship: 'Brother',
+        occupation: 'Construction Worker',
+        birthday: 'June 20, 1995',
+        age: '27',
+        image: 'assets/images/tachado-welman.jpg'
     ),
   ];
 

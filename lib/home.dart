@@ -173,20 +173,38 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   List family_venjun = [
     Family(
         id: 1,
-        name: 'Joe Calapiz',
+        name: 'Vernie Vallente',
         relationship: 'Father',
-        occupation: 'Teacher',
-        birthday: 'Unrecorded',
+        occupation: 'Deceased',
+        birthday: 'November 24',
         age: '0',
         image: ''
     ),
     Family(
         id: 2,
-        name: 'Joephine Calapiz',
-        relationship: 'Me',
-        occupation: 'Student',
+        name: 'Vilma Vallente',
+        relationship: 'Mother',
+        occupation: 'Housewife',
         birthday: 'Unrecorded',
         age: '0',
+        image: ''
+    ),
+    Family(
+        id: 3,
+        name: 'Vincent Bel Vallente',
+        relationship: 'Brother',
+        occupation: 'Student',
+        birthday: 'October 5 2000',
+        age: '22',
+        image: ''
+    ),
+    Family(
+        id: 4,
+        name: 'Vernie Vallente Jr.',
+        relationship: 'Me',
+        occupation: 'Student',
+        birthday: 'November 11 2001',
+        age: '20',
         image: ''
     ),
   ];

@@ -323,7 +323,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
           tabs: const [
             Tab(child: Text('Ali Gutierrez')),
             Tab(child: Text('Joephine Calapiz')),
-            Tab(child: Text('Venjun Vallente')),
+            Tab(child: Text('Vernie Vallente')),
             Tab(child: Text('Andres Tachado')),
             Tab(child: Text('Lloyd Anthony Salas')),
             Tab(child: Text('Lourence Paul Paquita'))

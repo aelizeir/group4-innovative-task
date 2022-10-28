@@ -14,11 +14,6 @@ class FamilyList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      child: ListTile(
-        shape: RoundedRectangleBorder(
-          side: const BorderSide(width: 4),
-          borderRadius: BorderRadius.circular(10),
-        ),
         contentPadding: const EdgeInsets.symmetric(horizontal: 15, vertical: 3),
         leading: CircleAvatar(backgroundImage: NetworkImage(members.image.toString())),
         title: Text(members.name ?? 'No Name'),

@@ -15,13 +15,17 @@ class FamilyList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       child: ListTile(
-        contentPadding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
+        shape: RoundedRectangleBorder(
+          side: const BorderSide(width: 4),
+          borderRadius: BorderRadius.circular(10),
+        ),
+        contentPadding: const EdgeInsets.symmetric(horizontal: 15, vertical: 3),
         leading: CircleAvatar(backgroundImage: NetworkImage(members.image.toString())),
         title: Text(members.name ?? 'No Name'),
         subtitle: Text(members.relationship ?? 'Not Related'),
         onTap: () {
           Navigator.push(
-            context, SlideLeft(page: PageTwo(information: members))
+              context, SlideLeft(page: PageTwo(information: members))
           );
         },
         trailing: const Icon(Icons.arrow_forward_ios),
@@ -29,3 +33,4 @@ class FamilyList extends StatelessWidget {
     );
   }
 }
+

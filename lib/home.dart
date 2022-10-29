@@ -284,7 +284,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Businessman',
         birthday: 'January 15, 1978',
         age: '44',
-        image: ''
+        image: 'assets/images/Paquita - Father.jpg'
     ),
     Family(
         id: 2,
@@ -293,7 +293,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'September 28, 2000',
         age: '22',
-        image: ''
+        image: 'assets/images/Paquita - Me.jpg'
     ),
      Family(
         id: 3,
@@ -302,7 +302,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'OFW',
         birthday: 'October 27, 1973',
         age: '49',
-        image: ''
+        image: 'assets/images/Paquita - Mother.jpg'
     ),
      Family(
         id: 4,
@@ -311,7 +311,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'September 15, 2001',
         age: '21',
-        image: ''
+        image: 'assets/images/Paquita- Sister.jpg'
     ),
   ];
 

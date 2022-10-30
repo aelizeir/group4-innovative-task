@@ -14,7 +14,8 @@ class FamilyList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-        contentPadding: const EdgeInsets.symmetric(horizontal: 15, vertical: 3),
+      child: ListTile(
+        contentPadding: const EdgeInsets.symmetric(horizontal: 15, vertical: 20),
         leading: CircleAvatar(backgroundImage: NetworkImage(members.image.toString())),
         title: Text(members.name ?? 'No Name'),
         subtitle: Text(members.relationship ?? 'Not Related'),
@@ -28,4 +29,3 @@ class FamilyList extends StatelessWidget {
     );
   }
 }
-

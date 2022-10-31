@@ -315,22 +315,22 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
     ),
     Family(
         id: 2,
-        name: 'Lourence Paul Paquita',
-        relationship: 'Me',
-        occupation: 'Student',
-        birthday: 'September 28, 2000',
-        age: '22',
-        image: 'assets/images/Paquita - Me.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
-    ),
-    Family(
-        id: 3,
         name: 'Leonora Paquita',
         relationship: 'Mother',
         occupation: 'OFW',
         birthday: 'October 27, 1973',
         age: '49',
         image: 'assets/images/Paquita - Mother.jpg',
+        coverPhoto: 'assets/images/cvp.jpg'
+    ),
+    Family(
+        id: 3,
+        name: 'Lourence Paul Paquita',
+        relationship: 'Me',
+        occupation: 'Student',
+        birthday: 'September 28, 2000',
+        age: '22',
+        image: 'assets/images/Paquita - Me.jpg',
         coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(

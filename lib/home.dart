@@ -366,15 +366,19 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
           subtitle: Text('Group 4', style: TextStyle(color: Colors.white70)),
 
         ),
-        bottom:  TabBar(
+        bottom: TabBar(
+          labelColor: Colors.white,
+          unselectedLabelColor: const Color(0xFF6E2B0E),
+          indicatorColor: Colors.white,
           controller:  tabController,
+          
           tabs: const [
-            Tab(child: Text('Ali Gutierrez', style: TextStyle(color: Color(0xFF6E2B0E)))),
-            Tab(child: Text('Joephine Calapiz', style: TextStyle(color: Color(0xFF6E2B0E)))),
-            Tab(child: Text('Vernie Vallente', style: TextStyle(color: Color(0xFF6E2B0E)))),
-            Tab(child: Text('Andres Tachado', style: TextStyle(color: Color(0xFF6E2B0E)))),
-            Tab(child: Text('Lloyd Anthony Salas', style: TextStyle(color: Color(0xFF6E2B0E)))),
-            Tab(child: Text('Lourence Paul Paquita', style: TextStyle(color: Color(0xFF6E2B0E))))
+            Tab(child: Text('Ali Gutierrez')), 
+            Tab(child: Text('Joephine Calapiz')), 
+            Tab(child: Text('Vernie Vallente')), 
+            Tab(child: Text('Andres Tachado')), 
+            Tab(child: Text('Lloyd Anthony Salas')), 
+            Tab(child: Text('Lourence Paul Paquita'))
           ],
         ),
       ),

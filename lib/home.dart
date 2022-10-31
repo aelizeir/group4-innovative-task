@@ -24,13 +24,14 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   // ignore: non_constant_identifier_names
   List family_ali = [
     Family(
-       id: 1,
-      name: 'Alexis Jose Gutierrez',
-      relationship: 'Father',
-      occupation: 'Businessman',
-      birthday: 'March 16, 1952',
-      age: '70',
-      image: 'assets/images/ali-alex.JPG'
+        id: 1,
+        name: 'Alexis Jose Gutierrez',
+        relationship: 'Father',
+        occupation: 'Businessman',
+        birthday: 'March 16, 1952',
+        age: '70',
+        image: 'assets/images/ali-alex.JPG',
+        coverPhoto: 'assets/images/ali-alex-bg.jpg'
     ),
     Family(
         id: 2,
@@ -39,7 +40,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Teacher',
         birthday: 'May 23, 1965',
         age: '57',
-        image: 'assets/images/ali-annie.JPG'
+        image: 'assets/images/ali-annie.JPG',
+        coverPhoto: 'assets/images/ali-annie-bg.jpg'
     ),
     Family(
         id: 3,
@@ -48,7 +50,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Fullstack Developer',
         birthday: 'September 8, 1996',
         age: '26',
-        image: 'assets/images/ali-xan.png'
+        image: 'assets/images/ali-xan.png',
+        coverPhoto: 'assets/images/ali-xan-bg.jpg'
     ),
     Family(
         id: 4,
@@ -57,7 +60,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Regular College Student / Kapwa Tao',
         birthday: 'August 29, 2001',
         age: '21',
-        image: 'assets/images/ali-me.png'
+        image: 'assets/images/ali-me.png',
+        coverPhoto: 'assets/images/ali-ali-bg.jpg'
     ),
   ];
 
@@ -71,7 +75,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Farmer',
         birthday: 'March 20, 1960',
         age: '62',
-        image: 'assets/images/calapiz-joe.jpg'
+        image: 'assets/images/calapiz-joe.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 2,
@@ -80,7 +85,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Housewife',
         birthday: 'March 18, 1961',
         age: '61',
-        image: 'assets/images/calapiz-josephine.jpg'
+        image: 'assets/images/calapiz-josephine.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 3,
@@ -89,7 +95,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Admin',
         birthday: 'September 14, 1997',
         age: '24',
-        image: 'assets/images/calapiz-mitch.jpg'
+        image: 'assets/images/calapiz-mitch.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 4,
@@ -98,7 +105,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'January 18, 1999',
         age: '51',
-        image: 'assets/images/calapiz-nica.jpg'
+        image: 'assets/images/calapiz-nica.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 5,
@@ -107,7 +115,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'August 7, 2001',
         age: '21',
-        image: 'assets/images/calapiz-joephine.jpg '
+        image: 'assets/images/calapiz-joephine.jpg ',
+        coverPhoto: ''
     ),
     Family(
         id: 6,
@@ -116,7 +125,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'December 14, 2004',
         age: '19',
-        image: 'assets/images/calapiz-ej.jpg'
+        image: 'assets/images/calapiz-ej.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 7,
@@ -125,12 +135,13 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'October 14, 2018',
         age: '5',
-        image: 'assets/images/calapiz-zia.jpg'
+        image: 'assets/images/calapiz-zia.jpg',
+        coverPhoto: ''
     ),
   ];
-  
+
   // ignore: non_constant_identifier_names
- List family_andres = [
+  List family_andres = [
     Family(
         id: 1,
         name: 'Welson Tachado',
@@ -138,7 +149,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Driver',
         birthday: 'August 17, 1994',
         age: '28',
-        image: 'assets/images/tachado-jr.jpg'
+        image: 'assets/images/tachado-jr.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 2,
@@ -147,7 +159,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'November 1, 2000',
         age: '21',
-        image: 'assets/images/tachado-andres.jpg'
+        image: 'assets/images/tachado-andres.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 3,
@@ -156,7 +169,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'House Wife',
         birthday: 'July 4, 1971',
         age: '51',
-        image: 'assets/images/tachado-natividad.jpg'
+        image: 'assets/images/tachado-natividad.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 3,
@@ -165,7 +179,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Fish Vendor',
         birthday: 'September 17, 1990',
         age: '32',
-        image: 'assets/images/tachado-welma.jpg'
+        image: 'assets/images/tachado-welma.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 4,
@@ -174,7 +189,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Abroad',
         birthday: 'December 25, 1992',
         age: '30',
-        image: 'assets/images/tachado-winnie.jpg'
+        image: 'assets/images/tachado-winnie.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 5,
@@ -183,7 +199,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Construction Worker',
         birthday: 'June 20, 1995',
         age: '27',
-        image: 'assets/images/tachado-welman.jpg'
+        image: 'assets/images/tachado-welman.jpg',
+        coverPhoto: ''
     ),
   ];
 
@@ -196,7 +213,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Deceased',
         birthday: 'November 24 1974',
         age: '48',
-        image: 'assets/images/vallente-vernie.jpg'
+        image: 'assets/images/vallente-vernie.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 2,
@@ -205,7 +223,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Housekeeper',
         birthday: 'January 18 1971',
         age: '51',
-        image: 'assets/images/vallente-vilma.jpg'
+        image: 'assets/images/vallente-vilma.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 3,
@@ -214,7 +233,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'October 5 2000',
         age: '22',
-        image: 'assets/images/vallente-vincent.jpg'
+        image: 'assets/images/vallente-vincent.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 4,
@@ -223,7 +243,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'November 11 2001',
         age: '20',
-        image: 'assets/images/Vallente-vernie jr.jpg'
+        image: 'assets/images/Vallente-vernie jr.jpg',
+        coverPhoto: ''
     ),
   ];
 
@@ -236,7 +257,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Service Driver',
         birthday: 'September 18, 1969',
         age: '53',
-        image: 'assets/images/Salas-Dad.jpg'
+        image: 'assets/images/Salas-Dad.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 2,
@@ -245,7 +267,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'OFW',
         birthday: 'Aug 7, 1977',
         age: '45',
-        image: 'assets/images/Salas-Mom.jpg'
+        image: 'assets/images/Salas-Mom.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 3,
@@ -254,7 +277,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'Dec 10, 1997',
         age: '24',
-        image: 'assets/images/Salas-Sis 1.jpg'
+        image: 'assets/images/Salas-Sis 1.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 4,
@@ -263,7 +287,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'June 13, 2001',
         age: '21',
-        image: 'assets/images/Salas-Me.jpg'
+        image: 'assets/images/Salas-Me.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 5,
@@ -272,10 +297,11 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'June 14, 2006',
         age: '16',
-        image: 'assets/images/Salas-Sis 2.jpg'
+        image: 'assets/images/Salas-Sis 2.jpg',
+        coverPhoto: ''
     ),
   ];
-    // ignore: non_constant_identifier_names
+  // ignore: non_constant_identifier_names
   List family_lourence = [
     Family(
         id: 1,
@@ -284,7 +310,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Businessman',
         birthday: 'January 15, 1978',
         age: '44',
-        image: 'assets/images/Paquita - Father.jpg'
+        image: 'assets/images/Paquita - Father.jpg',
+        coverPhoto: ''
     ),
     Family(
         id: 2,
@@ -293,25 +320,28 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'September 28, 2000',
         age: '22',
-        image: 'assets/images/Paquita - Me.jpg'
+        image: 'assets/images/Paquita - Me.jpg',
+        coverPhoto: ''
     ),
-     Family(
+    Family(
         id: 3,
         name: 'Leonora Paquita',
         relationship: 'Mother',
         occupation: 'OFW',
         birthday: 'October 27, 1973',
         age: '49',
-        image: 'assets/images/Paquita - Mother.jpg'
+        image: 'assets/images/Paquita - Mother.jpg',
+        coverPhoto: ''
     ),
-     Family(
+    Family(
         id: 4,
         name: 'Lara Marie Paquita',
         relationship: 'Sister',
         occupation: 'Student',
         birthday: 'September 15, 2001',
         age: '21',
-        image: 'assets/images/Paquita- Sister.jpg'
+        image: 'assets/images/Paquita- Sister.jpg',
+        coverPhoto: ''
     ),
   ];
 
@@ -332,19 +362,19 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
       appBar: AppBar(
         title: const ListTile(
           leading: CircleAvatar(backgroundImage: AssetImage('assets/images/group4.jpg')),
-          title: Text('Innovative Task #', style: TextStyle(color: Colors.white,fontSize: 23.0 )),
-          subtitle: Text('Group 4', style: TextStyle(color: Colors.white, fontSize: 14.0)),
+          title: Text('Innovative Task #', style: TextStyle(color: Colors.white70)),
+          subtitle: Text('Group 4', style: TextStyle(color: Colors.white70)),
 
         ),
         bottom:  TabBar(
           controller:  tabController,
           tabs: const [
-            Tab(child: Text('Ali Gutierrez')),
-            Tab(child: Text('Joephine Calapiz')),
-            Tab(child: Text('Vernie Vallente')),
-            Tab(child: Text('Andres Tachado')),
-            Tab(child: Text('Lloyd Anthony Salas')),
-            Tab(child: Text('Lourence Paul Paquita'))
+            Tab(child: Text('Ali Gutierrez', style: TextStyle(color: Color(0xFF6E2B0E)))),
+            Tab(child: Text('Joephine Calapiz', style: TextStyle(color: Color(0xFF6E2B0E)))),
+            Tab(child: Text('Vernie Vallente', style: TextStyle(color: Color(0xFF6E2B0E)))),
+            Tab(child: Text('Andres Tachado', style: TextStyle(color: Color(0xFF6E2B0E)))),
+            Tab(child: Text('Lloyd Anthony Salas', style: TextStyle(color: Color(0xFF6E2B0E)))),
+            Tab(child: Text('Lourence Paul Paquita', style: TextStyle(color: Color(0xFF6E2B0E))))
           ],
         ),
       ),

@@ -100,6 +100,7 @@ flutter:
      - assets/images/ali-annie-bg.jpg
      - assets/images/ali-xan-bg.jpg
      - assets/images/ali-ali-bg.jpg
+     - assets/images/cvp.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

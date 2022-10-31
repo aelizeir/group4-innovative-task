@@ -66,8 +66,11 @@ flutter:
      - assets/images/ali-annie.JPG
      - assets/images/ali-xan.png
      - assets/images/ali-me.png
-     - assets/images/p1.jpg
-     - assets/images/group4.jpg
+     - assets/images/ali-alex-bg.jpg
+     - assets/images/ali-annie-bg.jpg
+     - assets/images/ali-xan-bg.jpg
+     - assets/images/ali-ali-bg.jpg
+ 
      - assets/images/calapiz-ej.jpg
      - assets/images/calapiz-joe.jpg
      - assets/images/calapiz-joephine.jpg
@@ -75,32 +78,40 @@ flutter:
      - assets/images/calapiz-mitch.jpg
      - assets/images/calapiz-nica.jpg
      - assets/images/calapiz-zia.jpg
+     - assets/images/calapiz-coverphoto1.jpg
+     - assets/images/calapiz-coverphoto2.jpg
+     
      - assets/images/Salas-Dad.jpg
      - assets/images/Salas-Mom.jpg
      - assets/images/Salas-Sis 1.jpg
      - assets/images/Salas-Me.jpg
      - assets/images/Salas-Sis 2.jpg
+     
      - assets/images/tachado-andres.jpg
      - assets/images/tachado-jr.jpg
      - assets/images/tachado-welma.jpg
      - assets/images/tachado-natividad.jpg
      - assets/images/tachado-winnie.jpg
      - assets/images/tachado-welman.jpg
-     - assets/images/bg1.jpg
+     
      - assets/images/Paquita - Father.jpg
      - assets/images/Paquita - Me.jpg
      - assets/images/Paquita - Mother.jpg
      - assets/images/Paquita- Sister.jpg
+     
      - assets/images/vallente-vernie.jpg
      - assets/images/vallente-vilma.jpg
      - assets/images/vallente-vincent.jpg
      - assets/images/Vallente-vernie jr.jpg
+     
+     - assets/images/bg1.jpg
      - assets/images/bg2.jpg
-     - assets/images/ali-alex-bg.jpg
-     - assets/images/ali-annie-bg.jpg
-     - assets/images/ali-xan-bg.jpg
-     - assets/images/ali-ali-bg.jpg
      - assets/images/cvp.jpg
+     - assets/images/p1.jpg
+     - assets/images/group4.jpg
+     
+
+     
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

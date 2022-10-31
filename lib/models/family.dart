@@ -6,6 +6,7 @@ class Family {
   String? birthday;
   String? age;
   String? image;
+  String? coverPhoto;
 
   Family({
     required this.id,
@@ -14,7 +15,8 @@ class Family {
     required this.occupation,
     required this.birthday,
     required this.age,
-    required this.image
+    required this.image,
+    required this.coverPhoto
     }
   );
 }

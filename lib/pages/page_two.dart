@@ -20,7 +20,7 @@ class PageTwo extends StatelessWidget {
         backgroundColor: const Color(0xFFFAF9F6),
         appBar: AppBar(
           backgroundColor: const Color(0xFFFF9800),
-          title: Text(information.name ?? ' ', style: const TextStyle(color: Colors.white)),
+          title: Text(information.name ?? ' ', style: const TextStyle(color: Colors.white70)),
         ),
         body: ListView(
             padding: EdgeInsets.zero,
@@ -32,7 +32,7 @@ class PageTwo extends StatelessWidget {
                   Container(
                     margin: EdgeInsets.only(bottom: bottom),
                     color: Colors.orangeAccent,
-                    child: Image.asset('assets/images/group4.jpg',
+                    child: Image.asset(information.coverPhoto.toString(),
                         width: double.infinity,
                         height: coverHeight,
                         fit: BoxFit.cover),

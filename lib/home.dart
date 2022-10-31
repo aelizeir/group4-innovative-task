@@ -31,7 +31,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'March 16, 1952',
         age: '70',
         image: 'assets/images/ali-alex.JPG',
-        coverPhoto: 'assets/images/ali-alex-bg.jpg'
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 2,
@@ -76,7 +76,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'March 20, 1960',
         age: '62',
         image: 'assets/images/calapiz-joe.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 2,
@@ -86,7 +86,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'March 18, 1961',
         age: '61',
         image: 'assets/images/calapiz-josephine.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 3,
@@ -96,7 +96,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'September 14, 1997',
         age: '24',
         image: 'assets/images/calapiz-mitch.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 4,
@@ -106,7 +106,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'January 18, 1999',
         age: '51',
         image: 'assets/images/calapiz-nica.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 5,
@@ -115,8 +115,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Student',
         birthday: 'August 7, 2001',
         age: '21',
-        image: 'assets/images/calapiz-joephine.jpg ',
-        coverPhoto: ''
+        image: 'assets/images/calapiz-joephine.jpg',
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 6,
@@ -126,7 +126,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'December 14, 2004',
         age: '19',
         image: 'assets/images/calapiz-ej.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 7,
@@ -136,7 +136,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'October 14, 2018',
         age: '5',
         image: 'assets/images/calapiz-zia.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
   ];
 
@@ -150,7 +150,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'August 17, 1994',
         age: '28',
         image: 'assets/images/tachado-jr.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 2,
@@ -160,7 +160,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'November 1, 2000',
         age: '21',
         image: 'assets/images/tachado-andres.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 3,
@@ -170,7 +170,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'July 4, 1971',
         age: '51',
         image: 'assets/images/tachado-natividad.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 3,
@@ -180,7 +180,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'September 17, 1990',
         age: '32',
         image: 'assets/images/tachado-welma.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 4,
@@ -190,7 +190,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'December 25, 1992',
         age: '30',
         image: 'assets/images/tachado-winnie.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 5,
@@ -200,7 +200,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'June 20, 1995',
         age: '27',
         image: 'assets/images/tachado-welman.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
   ];
 
@@ -214,7 +214,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'November 24 1974',
         age: '48',
         image: 'assets/images/vallente-vernie.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 2,
@@ -224,7 +224,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'January 18 1971',
         age: '51',
         image: 'assets/images/vallente-vilma.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 3,
@@ -234,7 +234,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'October 5 2000',
         age: '22',
         image: 'assets/images/vallente-vincent.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 4,
@@ -244,7 +244,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'November 11 2001',
         age: '20',
         image: 'assets/images/Vallente-vernie jr.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
   ];
 
@@ -258,7 +258,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'September 18, 1969',
         age: '53',
         image: 'assets/images/Salas-Dad.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 2,
@@ -268,7 +268,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'Aug 7, 1977',
         age: '45',
         image: 'assets/images/Salas-Mom.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 3,
@@ -278,7 +278,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'Dec 10, 1997',
         age: '24',
         image: 'assets/images/Salas-Sis 1.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 4,
@@ -288,7 +288,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'June 13, 2001',
         age: '21',
         image: 'assets/images/Salas-Me.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 5,
@@ -298,7 +298,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'June 14, 2006',
         age: '16',
         image: 'assets/images/Salas-Sis 2.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
   ];
   // ignore: non_constant_identifier_names
@@ -311,7 +311,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'January 15, 1978',
         age: '44',
         image: 'assets/images/Paquita - Father.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 2,
@@ -321,7 +321,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'September 28, 2000',
         age: '22',
         image: 'assets/images/Paquita - Me.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 3,
@@ -331,7 +331,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'October 27, 1973',
         age: '49',
         image: 'assets/images/Paquita - Mother.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 4,
@@ -341,7 +341,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'September 15, 2001',
         age: '21',
         image: 'assets/images/Paquita- Sister.jpg',
-        coverPhoto: ''
+        coverPhoto: 'assets/images/cvp.jpg'
     ),
   ];
 
@@ -394,10 +394,9 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
           TabAndres(family: family_andres),
           TabLloyd(family: family_lloyd),
           TabLourence(family: family_lourence)
-        ],
-
+          ],
+        ),
       ),
-    ),
     );
   }
 }

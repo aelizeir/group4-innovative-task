@@ -14,8 +14,8 @@ class PageTwo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final top = coverHeight - profileHeight / 2;
-    final bottom = profileHeight / 2;
+    final top = coverHeight - profileHeight / 1;
+    final bottom = profileHeight / 1;
     return Scaffold(
         backgroundColor: const Color(0xFFFAF9F6),
         appBar: AppBar(
@@ -37,13 +37,24 @@ class PageTwo extends StatelessWidget {
                         height: coverHeight,
                         fit: BoxFit.cover),
                   ),
-                  Positioned(
-                    top: top,
+                  Container(
+                    margin: EdgeInsets.only(top: top),
+                    decoration: const BoxDecoration(
+                      color: Color(0xFFFFCBA4),
+                      shape: BoxShape.circle,
+                      boxShadow: [
+                        BoxShadow(
+                          blurRadius: 10,
+                          color: Color(0xFFFFCBA4),
+                          spreadRadius: 5
+                        )
+                      ]
+                    ),
                     child: CircleAvatar(
                       radius: profileHeight,
                       backgroundColor: const Color(0xFFFAF9F6),
                       child: CircleAvatar(
-                        radius: 135,
+                        radius: 125,
                         backgroundImage: AssetImage(information.image.toString()),
                       ),
                     )

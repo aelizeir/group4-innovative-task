@@ -144,26 +144,16 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   List family_andres = [
     Family(
         id: 1,
-        name: 'Welson Tachado',
-        relationship: 'Brother',
-        occupation: 'Driver',
-        birthday: 'August 17, 1994',
-        age: '28',
-        image: 'assets/images/tachado-jr.jpg',
+        name: 'Wilson Tachado',
+        relationship: 'Father',
+        occupation: 'Deceased',
+        birthday: 'Febuary 12, 1969',
+        age: '53',
+        image: 'assets/images/vallente-vernie.jpg',
         coverPhoto: 'assets/images/cvp.jpg'
     ),
     Family(
         id: 2,
-        name: 'Andres Tachado',
-        relationship: 'Me',
-        occupation: 'Student',
-        birthday: 'November 1, 2000',
-        age: '21',
-        image: 'assets/images/tachado-andres.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
-    ),
-    Family(
-        id: 3,
         name: 'Natividad Tachado',
         relationship: 'Mother',
         occupation: 'House Wife',
@@ -200,6 +190,26 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'June 20, 1995',
         age: '27',
         image: 'assets/images/tachado-welman.jpg',
+        coverPhoto: 'assets/images/cvp.jpg'
+    ),
+    Family(
+        id: 6,
+        name: 'Welson Tachado',
+        relationship: 'Brother',
+        occupation: 'Driver',
+        birthday: 'August 17, 1994',
+        age: '28',
+        image: 'assets/images/tachado-jr.jpg',
+        coverPhoto: 'assets/images/cvp.jpg'
+    ),
+    Family(
+        id: 7,
+        name: 'Andres Tachado',
+        relationship: 'Me',
+        occupation: 'Student',
+        birthday: 'November 1, 2000',
+        age: '21',
+        image: 'assets/images/tachado-andres.jpg',
         coverPhoto: 'assets/images/cvp.jpg'
     ),
   ];

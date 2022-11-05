@@ -149,7 +149,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Deceased',
         birthday: 'Febuary 12, 1969',
         age: '53',
-        image: 'assets/images/tachado-wilson.jpg',
+        image: 'assets/images/tachado-wilson.png',
         coverPhoto: 'assets/images/tachado-coverphoto2.jpg'
     ),
     Family(

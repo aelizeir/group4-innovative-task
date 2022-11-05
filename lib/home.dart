@@ -224,7 +224,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'November 24 1974',
         age: '48',
         image: 'assets/images/vallente-vernie.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
+        coverPhoto: 'assets/images/Vernie_Cover.jpg'
     ),
     Family(
         id: 2,
@@ -234,7 +234,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'January 18 1971',
         age: '51',
         image: 'assets/images/vallente-vilma.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
+        coverPhoto: 'assets/images/Vernie_Cover.jpg'
     ),
     Family(
         id: 3,
@@ -244,7 +244,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'October 5 2000',
         age: '22',
         image: 'assets/images/vallente-vincent.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
+        coverPhoto: 'assets/images/Vincent_Cover.jpg'
     ),
     Family(
         id: 4,

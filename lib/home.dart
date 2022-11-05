@@ -254,7 +254,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'November 11 2001',
         age: '20',
         image: 'assets/images/Vallente-vernie jr.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
+        coverPhoto: 'assets/images/Vernie_Cover.jpg'
     ),
   ];
 

@@ -149,8 +149,8 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         occupation: 'Deceased',
         birthday: 'Febuary 12, 1969',
         age: '53',
-        image: 'assets/images/vallente-vernie.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
+        image: 'assets/images/tachado-wilson.jpg',
+        coverPhoto: 'assets/images/tachado-coverphoto2.jpg'
     ),
     Family(
         id: 2,
@@ -160,7 +160,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'July 4, 1971',
         age: '51',
         image: 'assets/images/tachado-natividad.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
+        coverPhoto: 'assets/images/tachado-coverphoto2.jpg'
     ),
     Family(
         id: 3,
@@ -170,7 +170,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'September 17, 1990',
         age: '32',
         image: 'assets/images/tachado-welma.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
+        coverPhoto: 'assets/images/tachado-coverphoto2.jpg'
     ),
     Family(
         id: 4,
@@ -180,27 +180,27 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'December 25, 1992',
         age: '30',
         image: 'assets/images/tachado-winnie.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
+        coverPhoto: 'assets/images/tachado-coverphoto2.jpg'
     ),
     Family(
         id: 5,
-        name: 'Welman Tachado',
-        relationship: 'Brother',
-        occupation: 'Construction Worker',
-        birthday: 'June 20, 1995',
-        age: '27',
-        image: 'assets/images/tachado-welman.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
-    ),
-    Family(
-        id: 6,
         name: 'Welson Tachado',
         relationship: 'Brother',
         occupation: 'Driver',
         birthday: 'August 17, 1994',
         age: '28',
         image: 'assets/images/tachado-jr.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
+        coverPhoto: 'assets/images/tachado-coverphoto2.jpg'
+    ),
+    Family(
+        id: 6,
+        name: 'Welman Tachado',
+        relationship: 'Brother',
+        occupation: 'Construction Worker',
+        birthday: 'June 20, 1995',
+        age: '27',
+        image: 'assets/images/tachado-welman.jpg',
+        coverPhoto: 'assets/images/tachado-coverphoto2.jpg'
     ),
     Family(
         id: 7,
@@ -210,7 +210,7 @@ class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
         birthday: 'November 1, 2000',
         age: '21',
         image: 'assets/images/tachado-andres.jpg',
-        coverPhoto: 'assets/images/cvp.jpg'
+        coverPhoto: 'assets/images/tachado-coverphoto1.jpg'
     ),
   ];
 
